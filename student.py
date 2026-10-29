@@ -7,5 +7,12 @@ class Student:
     def display(self):
         print(f"Name: {self.name}, Roll: {self.roll}, Marks: {self.marks}")
 
+    def result(self):
+        if self.marks >= 40:
+            print("Pass")
+        else:
+            print("Fail")
+
 s1 = Student("Rahul", 101, 85)
 s1.display()
+s1.result()
