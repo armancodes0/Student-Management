@@ -16,3 +16,8 @@ class Student:
 s1 = Student("Rahul", 101, 85)
 s1.display()
 s1.result()
+
+# Added in dev-branch
+s2 = Student("Priya", 102, 92)
+s2.display()
+s2.result()
